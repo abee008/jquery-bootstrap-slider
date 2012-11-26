@@ -9,12 +9,17 @@ It has been discribed in [this issue](https://github.com/Xlab/jquery-bootstrap-s
 
 ## What I'vde done
 
-I grabbed the latest code jQuery UI 1.9.1 and jQuery 1.8.2. I followed the examples in [jQuery UI slider](http://jqueryui.com/slider/). Now everything works fine. Enjoy~
+I grabbed the latest code jQuery UI 1.9.1 and jQuery 1.8.2. I followed the examples in [jQuery UI slider](http://jqueryui.com/slider/). It seemed easily to be figured out.Now everything works fine.
 
+Demo is available in [http://storage.logicmd.net/slider/index.html](http://storage.logicmd.net/slider/index.html).
+
+Enjoy~
 
 ## TODO
 
 * There is a yellow selection border in webkit browser. Trying to remove in next release.
+
+
 ------------
 
 ##jQuery UI Bootstrap
