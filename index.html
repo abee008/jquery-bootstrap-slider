@@ -1,28 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>jQuery UI Bootstrap Slider</title>
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery UI Slider - Default functionality</title>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/themes/base/jquery-ui.css" />
+    <link href="css/bootstrap-slider.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-    <link type="text/css" href="css/jquery-ui-slider.css" rel="stylesheet" />
-  </head>
+    <style>
+    #slider {
+        float: left;
+        width: 300px;
+        margin: 4px 20px 0 0;
+    }
+    #echo {
+        text-align: left;
+        float: left;
+        width: 200px;
+    }
 
-  <body>
-            <!-- Slider -->
-            <h2 class="demoHeaders">Horizontal Slider</h2>
-            <div id="filter"></div>
+    .medium {
+        font-size: 14px;
+    }
 
-<hr>
+    </style>
+</head>
+<body>
 
-            <div id="echo"></div>
-            <!--end slider-->
+<div id="slider" class="medium"></div><div id="echo" class="medium"></div>
 
-        <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui-slider.min.js"></script>
-        <script type="text/javascript" src="js/demo.js"></script>
-  </body>
+<script src="js/demo.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+</body>
 </html>

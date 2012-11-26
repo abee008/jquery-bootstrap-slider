@@ -1,12 +1,27 @@
 # SLIDER ONLY!
 
+## Related work
+
+[addyosmani](https://github.com/addyosmani/jquery-ui-bootstrap) has done a lot of pioneer works in combining bootstrap style with jQuery UI. [Xlab](https://github.com/Xlab/jquery-bootstrap-slider) has extracted addyosmani's work in building a slider and make all style file(jQuery, jQuery UI, custom tweaks) in one file.
+
+However, Bootstrap has upgraded into 2.0+. It now depends on jQuery 1.8.2. And addyosmani and Xlab's work depends on jQuery 1.6.2, which is incompatible with v1.8.2.
+It has been discribed in [this issue](https://github.com/Xlab/jquery-bootstrap-slider/issues/1).
+
+## What I'vde done
+
+I grabbed the latest code jQuery UI 1.9.1 and jQuery 1.8.2. I followed the examples in [jQuery UI slider](http://jqueryui.com/slider/). Now everything works fine. Enjoy~
+
+
+## TODO
+
+* There is a yellow selection border in webkit browser. Trying to remove in next release.
 ------------
 
 ##jQuery UI Bootstrap
 
 ##Summary
 
-This is a project I started to bring the beauty of Twitter's Bootstrap to jQuery UI widgets. 
+This is a project I started to bring the beauty of Twitter's Bootstrap to jQuery UI widgets.
 
 Twitter's Bootstrap was one of my favorite projects to come out of 2011, but having used it regularly it left me wanting two things:
 
@@ -19,9 +34,9 @@ I welcome any and all feedback as I'd very much like this theme to be as solid a
 
 ##Browser-support
 
-All modern browsers are targeted by this theme with 'lo-res' experiences (i.e no gradients, border-radius etc.) provided for users using older browsers. 
+All modern browsers are targeted by this theme with 'lo-res' experiences (i.e no gradients, border-radius etc.) provided for users using older browsers.
 
-There *are* some minor known issues lingering that I'm working on, but the hope is that in time those will all get ironed out. 
+There *are* some minor known issues lingering that I'm working on, but the hope is that in time those will all get ironed out.
 
 ##jQuery UI support
 

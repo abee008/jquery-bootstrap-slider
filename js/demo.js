@@ -1,11 +1,20 @@
-$("#filter").slider({
+$(function() {
+    $( "#slider" ).slider({
         orientation: "horizontal",
         range: "min",
         min: 0,
-        max: 1000,
-        value: 500,
+        max: 6,
+        value: 6,
         slide: function (event, ui) {
-            $("#echo").html(ui.value);
+            var skew;
+            if (ui.value == 6) {
+                skew = "Unlimited BandWidth";
+            }
+            else {
+                skew = ui.value + " Mbps";
+            }
+            $("#echo").html(skew);
         }
     });
-    $("#echo").html($("#filter").slider("value"));
+    $("#echo").html("Unlimited BandWidth");
+});
