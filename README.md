@@ -7,7 +7,7 @@
 However, Bootstrap has upgraded into 2.0+. It now depends on jQuery 1.8.2. And addyosmani and Xlab's work depends on jQuery 1.6.2, which is incompatible with v1.8.2.
 It has been described in [this issue](https://github.com/Xlab/jquery-bootstrap-slider/issues/1).
 
-## What I'vde done
+## What I've done
 
 I grabbed the latest code jQuery UI 1.9.1 and jQuery 1.8.2. I followed the examples in [jQuery UI slider](http://jqueryui.com/slider/). It seemed easily to be figured out. Now everything works fine.
 
